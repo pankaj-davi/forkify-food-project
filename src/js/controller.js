@@ -146,5 +146,6 @@ const init = function () {
   paginationView.addHendlerClick(controalPagenation);
   addRecipeView.addEventUpload(controlAddRecipe);
   console.log('name');
+  console.log('other test');
 };
 init();
