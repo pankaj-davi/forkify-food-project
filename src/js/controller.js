@@ -137,10 +137,6 @@ const controlAddRecipe = async newRecipe => {
   }
 };
 
-const neame = () => {
-  console.log(`switch branch`);
-};
-
 const init = function () {
   bookMarkView.addHandlerRender(constrolBookmarks);
   recipeView.addHenderRender(controlRecipes);
@@ -149,6 +145,5 @@ const init = function () {
   searchView.addHendlerSearch(controlSearchResults);
   paginationView.addHendlerClick(controalPagenation);
   addRecipeView.addEventUpload(controlAddRecipe);
-  neame();
 };
 init();
