@@ -145,5 +145,6 @@ const init = function () {
   searchView.addHendlerSearch(controlSearchResults);
   paginationView.addHendlerClick(controalPagenation);
   addRecipeView.addEventUpload(controlAddRecipe);
+  console.log('name');
 };
 init();
